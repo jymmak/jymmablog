@@ -2,6 +2,8 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+
 .margen {
 	margin: 100px;
 }
@@ -24,4 +26,13 @@ table th {
 #menu a {
 	color: white;
 	padding-right: 50px;
+}
+
+
+.center{
+	text-align: center;
+}
+
+.rojo{
+	color: #fc0d0d;
 }
