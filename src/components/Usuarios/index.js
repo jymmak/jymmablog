@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as usuariosActions from '../../actions/usuariosActions';
-import Spinner from '../general/Spinner';
-import Error from '../general/Error';
+import Spinner from '../General/Spinner';
+import Error from '../General/Error';
 import Tabla from '../Usuarios/Tabla';
 
 class Usuarios extends Component {
@@ -20,7 +20,12 @@ class Usuarios extends Component {
 	};
 
 	render() {
-		return <div>{this.ponerContenido()}</div>;
+		return (
+			<div>
+				<h1>Usuarios</h1>
+				{this.ponerContenido()}
+			</div>
+		);
 	}
 }
 
