@@ -7,9 +7,9 @@ import Publicaciones from './Publicaciones';
 const App = () => (
 	<BrowserRouter>
 		<Menu />
-		<div className='margen'>
-			<Route exact path='/' component={Usuarios} />
-			<Route exact path='/publicaciones/:key' component={Publicaciones} />
+		<div className="margen">
+			<Route exact path="/" component={Usuarios} />
+			{<Route exact path="/publicaciones/:key" component={Publicaciones} />}
 		</div>
 	</BrowserRouter>
 );

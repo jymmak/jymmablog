@@ -15,7 +15,7 @@ export const traerTodos = () => async (dispatch) => {
 	} catch(error) {
 		dispatch({
 			type: ERROR,
-			payload: 'Algo salió mal intente más tarde.'
+			payload: 'Información de usuarios no disponible.'
 		});
 	}
 };
