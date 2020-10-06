@@ -3,7 +3,6 @@ body {
 	padding: 0;
 }
 
-
 .margen {
 	margin: 100px;
 }
@@ -28,18 +27,28 @@ table th {
 	padding-right: 50px;
 }
 
-
-.center{
+.center {
 	text-align: center;
 }
 
-.rojo{
+.rojo {
 	color: #fc0d0d;
 }
 
-.pub_titulo{
+.pub_titulo {
 	border-top: 1px solid #000000;
+	cursor: pointer;
+}
+li {
+	margin: 15px 0 15px 0;
 }
 
-  
-  
+.contenedor_tareas {
+	font-size: 20px;
+	margin-left: 50px;
+	margin-bottom: 70px;
+}
+
+.m_left {
+	margin-left: 20px;
+}
